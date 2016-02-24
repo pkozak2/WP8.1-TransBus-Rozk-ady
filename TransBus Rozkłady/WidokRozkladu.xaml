@@ -1,0 +1,128 @@
+﻿<Page
+    x:Class="TransBus_Rozkłady.WidokRozkladu"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TransBus_Rozkłady"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="110"/>
+        </Grid.RowDefinitions>
+        <ProgressRing x:Name="Ladowanie" IsActive="False"/>
+        <Pivot Grid.Row="0" x:Name="Pivotka" Title="Pivot" PivotItemLoading="Pivotka_Loading" PivotItemLoaded="Pivotka_Loaded">
+            <PivotItem x:Name="PnPtPivot" Header="Pn - Pt" Loaded="PnPtPivot_Loaded">
+                <Grid>
+                    <GridView x:Name="GridTydzien" ItemsSource="{ Binding Items }">
+                        <GridView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="auto" Margin="0,0,15,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="20"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Text="{Binding Path=godzina}" Grid.Row="0" Grid.Column="0" Foreground="{ ThemeResource PhoneForegroundBrush }" FontSize="25"  Margin="0,0,0,0"></TextBlock>
+                                    <TextBlock Text="{Binding Path=ograniczenia}" Grid.Row="0" Grid.Column="1" Foreground="{ ThemeResource PhoneAccentBrush }" FontSize="17" VerticalAlignment="Top" ></TextBlock>
+
+                                </Grid>
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+                    </GridView>
+
+
+                </Grid>
+            </PivotItem>
+            <PivotItem x:Name="SobotaPivot" Header="Sobota" Loaded="SobotaPivot_Loaded">
+                <Grid>
+                    <GridView x:Name="GridSobota" ItemsSource="{ Binding Items }">
+                        <GridView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="auto" Margin="0,0,15,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="20"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Text="{Binding Path=godzina}" Grid.Row="0" Grid.Column="0" Foreground="{ ThemeResource PhoneForegroundBrush }" FontSize="25"  Margin="0,0,0,0"></TextBlock>
+                                    <TextBlock Text="{Binding Path=ograniczenia}" Grid.Row="0" Grid.Column="1" Foreground="{ ThemeResource PhoneAccentBrush }" FontSize="17" VerticalAlignment="Top" ></TextBlock>
+
+                                </Grid>
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+                    </GridView>
+
+                </Grid>
+            </PivotItem>
+            <PivotItem x:Name="NiedzielaPivot" Header="Niedziela" Loaded="NiedzielaPivot_Loaded">
+                <Grid>
+                    <GridView x:Name="GridNiedziela" ItemsSource="{ Binding Items }">
+                        <GridView.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="auto" Margin="0,0,15,0">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                        <ColumnDefinition Width="20"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <TextBlock Text="{Binding Path=godzina}" Grid.Row="0" Grid.Column="0" Foreground="{ ThemeResource PhoneForegroundBrush }" FontSize="25"  Margin="0,0,0,0"></TextBlock>
+                                    <TextBlock Text="{Binding Path=ograniczenia}" Grid.Row="0" Grid.Column="1" Foreground="{ ThemeResource PhoneAccentBrush }" FontSize="17" VerticalAlignment="Top" ></TextBlock>
+
+                                </Grid>
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+                    </GridView>
+                    <!--<ListBox x:Name="listaNiedziela" 
+                 ItemsSource="{Binding Items}" 
+                 Grid.Row="0" 
+                 Margin="0,50,0,0" 
+                 FontSize="26" Height="auto" 
+                 Background="Transparent">
+
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <Grid Width="auto">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"></RowDefinition>
+
+                                    </Grid.RowDefinitions>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="auto"/>
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock Text="{Binding Path=godzina}" Grid.Row="0" Grid.Column="0" Foreground="#FFF90000" FontSize="39"  Margin="0,0,10,0"></TextBlock>
+
+                                </Grid>
+                            </DataTemplate>
+
+                        </ListBox.ItemTemplate>
+                    </ListBox>-->
+
+                </Grid>
+            </PivotItem>
+        </Pivot>
+        <Grid Grid.Row="1">
+            <TextBlock x:Name="test" Text="Symbole:" Foreground="{ ThemeResource PhoneAccentBrush }" Margin="10,0,0,0" FontSize="20"/>
+            <TextBlock Text="*" Foreground="{ ThemeResource PhoneAccentBrush }" Margin="10,20,0,0" FontSize="20"/>
+            <TextBlock Text="- Nie kursuje przez Nową Wieś" Margin="24,20,0,0" FontSize="20"/>
+            <TextBlock Text="^" Foreground="{ ThemeResource PhoneAccentBrush }" Margin="8,40,0,0" FontSize="20"/>
+            <TextBlock Text="- Kursy do Placu Centralnego" Margin="24,40,0,0" FontSize="20"/>
+            <TextBlock Text="e" Foreground="{ ThemeResource PhoneAccentBrush }" Margin="10,60,0,0" FontSize="20"/>
+            <TextBlock Text="- Nie kursuje w okresie wakacji" Margin="24,60,0,0" FontSize="20"/>
+            <TextBlock Text="L" Foreground="{ ThemeResource PhoneAccentBrush }" Margin="10,80,0,0" FontSize="20"/>
+            <TextBlock Text="- Kursuje w okresie wakacji" Margin="24,0,0,0" FontSize="20" Height="30" VerticalAlignment="Bottom"/>
+        </Grid>
+    </Grid>
+</Page>

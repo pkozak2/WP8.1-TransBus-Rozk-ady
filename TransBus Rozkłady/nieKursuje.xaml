@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="TransBus_Rozkłady.nieKursuje"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TransBus_Rozkłady"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="Trans-Bus Rozkłady" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Wyjątki" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <TextBlock Text="Wyjątki w kursowaniu" FontSize="25" Margin="0,0,0,0" HorizontalAlignment="Center" FontWeight="Bold" />
+                    <TextBlock FontSize="18" Margin="0,38,0,0" HorizontalAlignment="Center" TextWrapping="WrapWholeWords">
+                        24 XII kursuje jak w niedzielę<LineBreak/>
+                        Sobota Wielkanocna kursuje jak w niedzielę<LineBreak/>
+                        Piątek po dniu Bożego Ciała kursuje jak w sobotę<LineBreak/>
+                        2-gi Maja kursuje jak w sobotę
+                    </TextBlock>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <TextBlock Text="Nie Kursuje:" FontSize="18" Margin="0,20,0,0" FontWeight="Bold"  HorizontalAlignment="Center" TextWrapping="WrapWholeWords" />
+                    <TextBlock FontSize="18" Margin="0,50,0,0" HorizontalAlignment="Center" TextWrapping="WrapWholeWords" >
+                        1 stycznia<LineBreak/>
+                        Trzech Króli<LineBreak/>
+                        Niedziela Wielkanocna<LineBreak/>
+                        Poniedziałek Wielkanocny<LineBreak/>
+                        3 Maja<LineBreak/>
+                        Boże Ciało<LineBreak/>
+                        15 Sierpnia<LineBreak/>
+                        1 Listopada<LineBreak/>
+                        11 Listopada<LineBreak/>
+                        Pierwszy oraz Drugi dzień Świąt Bożego Narodzenia
+                    </TextBlock>
+
+                </Grid>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>

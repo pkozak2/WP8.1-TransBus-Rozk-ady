@@ -1,0 +1,113 @@
+﻿<Page
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TransBus_Rozkłady"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:WindowsPhone81="using:Microsoft.AdMediator.WindowsPhone81"
+    x:Class="TransBus_Rozkłady.MainPage"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Page.BottomAppBar>
+        <CommandBar>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="Informacje" Click="oAplikacjiView"/>
+            </CommandBar.SecondaryCommands>
+            <AppBarButton Icon="Flag" Label="Aktualizacja" Click="zglosView"/>
+            <AppBarButton Icon="Important" Label="Wyjątki" Click="nieKursujeView"/>
+        </CommandBar>
+    </Page.BottomAppBar>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock x:Uid="AppNameAbout" Text="ROZKŁADY" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock x:Uid="AboutTitle" Text="Trans-Bus" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+        <Grid Grid.Row="1"  Height="300" Margin="10,0,10,0" VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Grid.Row="0" 
+				Grid.Column="0" 
+				HorizontalAlignment="Stretch" 
+				Margin="0,0,5,0" 
+				VerticalAlignment="Stretch" 
+				Click="ChoKrkView" 
+				HorizontalContentAlignment="Left" 
+				VerticalContentAlignment="Bottom"
+				Background="{ThemeResource PhoneAccentBrush}"
+				BorderBrush="{ThemeResource PhoneAccentBrush}">
+                <TextBlock Text="Chobot -&gt; Kraków" 
+					TextWrapping="Wrap" 
+					Margin="0,0,0,5"/>
+            </Button>
+            <Button Grid.Row="0" 
+				Grid.Column="1" 
+				HorizontalAlignment="Stretch" 
+				Margin="5,0,0,0" 
+				VerticalAlignment="Stretch" 
+				Click="KrkChoView" 
+				HorizontalContentAlignment="Left" 
+				VerticalContentAlignment="Bottom"
+				Background="{ThemeResource PhoneAccentBrush}"
+				BorderBrush="{ThemeResource PhoneAccentBrush}">
+                <TextBlock Text="Kraków -&gt; Chobot" 
+					TextWrapping="Wrap" 
+					Margin="0,0,0,5"/>
+            </Button>
+
+
+            <Button Grid.Row="1" Grid.Column="0"  
+				HorizontalAlignment="Stretch" 
+				Margin="0,0,5,0" 
+				VerticalAlignment="Stretch" 
+				Click="NcKrkView" 
+				HorizontalContentAlignment="Left" 
+				VerticalContentAlignment="Bottom"
+				Background="{ThemeResource PhoneAccentBrush}"
+				BorderBrush="{ThemeResource PhoneAccentBrush}">
+                <TextBlock Text="Niepołomice -&gt; Kraków" 
+					TextWrapping="Wrap" 
+					Margin="0,0,0,5"/>
+            </Button>
+
+            <Button Grid.Row="1" 
+				Grid.Column="1" 
+				HorizontalAlignment="Stretch" 
+				Margin="5,0,0,0" 
+				VerticalAlignment="Stretch" 
+				Click="NcChoView" 
+				HorizontalContentAlignment="Left" 
+				VerticalContentAlignment="Bottom"
+				Background="{ThemeResource PhoneAccentBrush}"
+				BorderBrush="{ThemeResource PhoneAccentBrush}">
+                <TextBlock Text="Niepołomice -&gt; Chobot" 
+					TextWrapping="Wrap"
+					Margin="0,0,0,5"/>
+            </Button>
+        </Grid>
+
+        <Grid Grid.Row="2">
+
+            <TextBlock 
+				Text="Ostatnia aktualizacja rozkładu: 08.10.2015" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16"/>
+
+            <WindowsPhone81:AdMediatorControl x:Name="AdMediator_0895C9" HorizontalAlignment="Left" Height="80" Id="AdMediator-Id-62D17851-50F4-4547-BD59-92FADAC87E40" Margin="0,10,0,0" VerticalAlignment="Bottom" Width="480"/>
+
+        </Grid>
+    </Grid>
+</Page>

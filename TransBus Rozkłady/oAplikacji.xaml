@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="TransBus_Rozkłady.oAplikacji"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TransBus_Rozkłady"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0">
+            <TextBlock Text="Trans-Bus Rozkłady" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0"/>
+            <TextBlock Text="Informacje" Margin="0,-6.5,0,26.5" Style="{ThemeResource HeaderTextBlockStyle}" CharacterSpacing="{ThemeResource PivotHeaderItemCharacterSpacing}"/>
+        </StackPanel>
+
+        <!--TODO: Content should be placed within the following grid-->
+        <Grid Grid.Row="1" x:Name="ContentRoot" Margin="19,9.5,19,0">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <TextBlock Text="UWAGA!" FontSize="25" Margin="0,0,0,0" HorizontalAlignment="Center" FontWeight="Bold" />
+                    <TextBlock FontSize="18" Margin="0,68,0,0" HorizontalAlignment="Center" TextWrapping="WrapWholeWords">
+                        Autor aplikacji nie jest w żadnym stopniu związany z firmą Trans-Bus.<LineBreak/>
+                        Dlatego nie odpowiada za wszelkie opóźnienia w godzinach odjazdów busów z danego miejsca.<LineBreak/>
+                        Wszelkie opóźnienia, za które autor aplikacji nie odpowiada mogą wynikać z utrudnień w ruchu.
+                    </TextBlock>
+                </Grid>
+                <Grid Grid.Row="1">
+                    <TextBlock Text="Kontakt z firmą Trans-Bus:" FontSize="18" Margin="0,20,0,0" FontWeight="Bold"  HorizontalAlignment="Center" TextWrapping="WrapWholeWords" />
+                    <TextBlock FontSize="18" Margin="0,68,0,0" HorizontalAlignment="Center" TextWrapping="WrapWholeWords" >
+                        TRANSBUS Tomasz Tomczyk<LineBreak/>
+                        os. Kalinowe 21/8<LineBreak/>
+                        31-815 Kraków<LineBreak/>
+                        tel.kon: 604-282-460<LineBreak/>
+                        e-mail: chobot@trans-bus.krakow.pl<LineBreak/>
+                        www.trans-bus.krakow.pl
+                    </TextBlock>
+
+                </Grid>
+            </Grid>
+         </Grid>
+
+            
+        </Grid>
+
+</Page>
