@@ -71,7 +71,8 @@
             </Button>
 
 
-            <Button Grid.Row="1" Grid.Column="0"  
+            <Button Grid.Row="1" Grid.Column="0"
+                    IsEnabled="False"
 				HorizontalAlignment="Stretch" 
 				Margin="0,0,5,0" 
 				VerticalAlignment="Stretch" 
@@ -87,6 +88,7 @@
 
             <Button Grid.Row="1" 
 				Grid.Column="1" 
+                    IsEnabled="False"
 				HorizontalAlignment="Stretch" 
 				Margin="5,0,0,0" 
 				VerticalAlignment="Stretch" 
@@ -104,7 +106,7 @@
         <Grid Grid.Row="2">
 
             <TextBlock 
-				Text="Ostatnia aktualizacja rozkładu: 08.10.2015" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16"/>
+				Text="Ostatnia aktualizacja rozkładu: 20.02.2017" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16"/>
 
             <WindowsPhone81:AdMediatorControl x:Name="AdMediator_0895C9" HorizontalAlignment="Left" Height="80" Id="AdMediator-Id-62D17851-50F4-4547-BD59-92FADAC87E40" Margin="0,10,0,0" VerticalAlignment="Bottom" Width="480"/>
 

@@ -50,11 +50,7 @@ namespace TransBus_Rozkłady
             // If you are using the NavigationHelper provided by some templates,
             // this event is handled for you.
         }
-        /// <summary>
-        /// Metody uruchamiające widoki dla danego rozkładu.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void NcKrkView(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(WidokRozkladu), "Niepołomice-Kraków");
@@ -71,29 +67,17 @@ namespace TransBus_Rozkłady
         {
             Frame.Navigate(typeof(WidokRozkladu), "Chobot-Kraków");
         }
-        /// <summary>
-        /// Metoda uruchamiająca widok z danymi aplikacji
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void oAplikacjiView(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(oAplikacji));
         }
-        /// <summary>
-        /// Metoda uruchamiająca widok z opcją zgłoszenia nowego rozkładu
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void zglosView(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(ZglosRozklad));
         }
-        /// <summary>
-        /// Metoda uruchamiająca widok z danymi dotyczącymi wyjątków w kursowaniu.
-        /// </summary>
-        /// <param name="sender"></param>
-        /// <param name="e"></param>
+
         private void nieKursujeView(object sender, RoutedEventArgs e)
         {
             Frame.Navigate(typeof(nieKursuje));
