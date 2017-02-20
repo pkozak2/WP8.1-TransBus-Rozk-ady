@@ -4,7 +4,7 @@
     xmlns:local="using:TransBus_Rozkłady"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    xmlns:WindowsPhone81="using:Microsoft.AdMediator.WindowsPhone81"
+    xmlns:WindowsPhone81="using:Microsoft.Advertising.WinRT.UI"
     x:Class="TransBus_Rozkłady.MainPage"
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
@@ -108,7 +108,7 @@
             <TextBlock 
 				Text="Ostatnia aktualizacja rozkładu: 20.02.2017" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16"/>
 
-            <WindowsPhone81:AdMediatorControl x:Name="AdMediator_0895C9" HorizontalAlignment="Left" Height="80" Id="AdMediator-Id-62D17851-50F4-4547-BD59-92FADAC87E40" Margin="0,10,0,0" VerticalAlignment="Bottom" Width="480"/>
+            <WindowsPhone81:AdControl x:Name="AdMediator_0895C9" HorizontalAlignment="Left" Height="80" ApplicationId="63b2df3f-f381-4195-aceb-ceff08f416df" AdUnitId="11530637" Margin="0,10,0,0" VerticalAlignment="Bottom" Width="480"/>
 
         </Grid>
     </Grid>
