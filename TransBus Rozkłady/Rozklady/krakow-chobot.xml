@@ -5,18 +5,18 @@
   <godzina dzien="tydzien" ograniczenia="*">06:35</godzina>
   <godzina dzien="tydzien" ograniczenia="e*">07:15</godzina>
   <godzina dzien="tydzien" ograniczenia="L">07:20</godzina>
-  <godzina dzien="tydzien" ograniczenia="e">07:50</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="e">07:50</godzina>-->
   <godzina dzien="tydzien" ograniczenia="*">08:25</godzina>
   <godzina dzien="tydzien" ograniczenia="*">09:10</godzina>
-  <godzina dzien="tydzien" ograniczenia="e*">09:40</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="e*">09:40</godzina>-->
   <godzina dzien="tydzien" ograniczenia="*">10:10</godzina>
   <godzina dzien="tydzien" ograniczenia="*">10:50</godzina>
   <godzina dzien="tydzien" ograniczenia="*">11:30</godzina>
-  <godzina dzien="tydzien" ograniczenia="e*">12:05</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="e*">12:05</godzina>-->
   <godzina dzien="tydzien" ograniczenia="">12:45</godzina>
   <godzina dzien="tydzien" ograniczenia="">13:20</godzina>
   <godzina dzien="tydzien" ograniczenia="">14:05</godzina>
-  <godzina dzien="tydzien" ograniczenia="e">14:35</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="e">14:35</godzina>-->
   <godzina dzien="tydzien" ograniczenia="">15:07</godzina>
   <godzina dzien="tydzien" ograniczenia="">16:07</godzina>
   <godzina dzien="tydzien" ograniczenia="e">16:45</godzina>
@@ -25,7 +25,7 @@
   <godzina dzien="tydzien" ograniczenia="">17:45</godzina>
   <godzina dzien="tydzien" ograniczenia="">18:30</godzina>
   <godzina dzien="tydzien" ograniczenia="">19:40</godzina>
-  <godzina dzien="tydzien" ograniczenia="">20:35</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="">20:35</godzina>-->
   <godzina dzien="tydzien" ograniczenia="">21:20</godzina>
   <godzina dzien="tydzien" ograniczenia="">21:55</godzina>
 

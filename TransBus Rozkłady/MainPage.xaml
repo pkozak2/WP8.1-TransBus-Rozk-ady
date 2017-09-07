@@ -23,7 +23,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="1*"/>
-            <RowDefinition Height="100"/>
+            <RowDefinition Height="30"/>
         </Grid.RowDefinitions>
 
         <!-- Title Panel -->
@@ -106,9 +106,7 @@
         <Grid Grid.Row="2">
 
             <TextBlock 
-				Text="Ostatnia aktualizacja rozkładu: 20.02.2017" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16"/>
-
-            <WindowsPhone81:AdControl x:Name="AdMediator_0895C9" HorizontalAlignment="Left" Height="80" ApplicationId="63b2df3f-f381-4195-aceb-ceff08f416df" AdUnitId="11530637" Margin="0,10,0,0" VerticalAlignment="Bottom" Width="480"/>
+				Text="Ostatnia aktualizacja rozkładu: 19.09.2017" VerticalAlignment="Top" HorizontalAlignment="Center" FontSize="16"/>
 
         </Grid>
     </Grid>

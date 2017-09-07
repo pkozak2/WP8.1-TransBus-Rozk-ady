@@ -1,7 +1,7 @@
 <rozklad>
   <godzina dzien="tydzien" ograniczenia="">04:20</godzina>
   <godzina dzien="tydzien" ograniczenia="">04:57</godzina>
-  <godzina dzien="tydzien" ograniczenia="e">05:30</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="e">05:30</godzina>-->
   <godzina dzien="tydzien" ograniczenia="">06:00</godzina>
   <godzina dzien="tydzien" ograniczenia="e">06:30</godzina>
   <godzina dzien="tydzien" ograniczenia="L">06:50</godzina>
@@ -9,18 +9,18 @@
   <godzina dzien="tydzien" ograniczenia="">07:40</godzina>
   <godzina dzien="tydzien" ograniczenia="e">08:20</godzina>
   <godzina dzien="tydzien" ograniczenia="L*">08:40</godzina>
-  <godzina dzien="tydzien" ograniczenia="*">09:00</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="*">09:00</godzina>-->
   <godzina dzien="tydzien" ograniczenia="">09:25</godzina>
   <godzina dzien="tydzien" ograniczenia="">10:15</godzina>
-  <godzina dzien="tydzien" ograniczenia="e">10:50</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="e">10:50</godzina>-->
   <godzina dzien="tydzien" ograniczenia="*">11:20</godzina>
   <godzina dzien="tydzien" ograniczenia="">12:00</godzina>
   <godzina dzien="tydzien" ograniczenia="">12:35</godzina>
-  <godzina dzien="tydzien" ograniczenia="e*">13:13</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="e*">13:13</godzina>-->
   <!--<godzina dzien="tydzien" ograniczenia="*">14:00</godzina>-->
   <godzina dzien="tydzien" ograniczenia="*">14:40</godzina>
   <godzina dzien="tydzien" ograniczenia="*">15:20</godzina>
-  <godzina dzien="tydzien" ograniczenia="e*">15:50</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="e*">15:50</godzina>-->
   <godzina dzien="tydzien" ograniczenia="*">16:25</godzina>
   <godzina dzien="tydzien" ograniczenia="*">17:25</godzina>
   <godzina dzien="tydzien" ograniczenia="e*">17:50</godzina>
