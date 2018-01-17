@@ -4,61 +4,61 @@
   <godzina dzien="tydzien" ograniczenia="*">05:58</godzina>
   <godzina dzien="tydzien" ograniczenia="*">06:35</godzina>
   <godzina dzien="tydzien" ograniczenia="e*">07:15</godzina>
-  <godzina dzien="tydzien" ograniczenia="L">07:20</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="L">07:20</godzina>-->
   <!--<godzina dzien="tydzien" ograniczenia="e">07:50</godzina>-->
   <godzina dzien="tydzien" ograniczenia="*">08:25</godzina>
-  <godzina dzien="tydzien" ograniczenia="*">09:10</godzina>
+  <godzina dzien="tydzien" ograniczenia="*">09:15</godzina>
   <!--<godzina dzien="tydzien" ograniczenia="e*">09:40</godzina>-->
-  <godzina dzien="tydzien" ograniczenia="*">10:10</godzina>
+  <godzina dzien="tydzien" ograniczenia="*">09:50</godzina>
   <godzina dzien="tydzien" ograniczenia="*">10:50</godzina>
-  <godzina dzien="tydzien" ograniczenia="*">11:30</godzina>
+  <godzina dzien="tydzien" ograniczenia="*">11:50</godzina>
   <!--<godzina dzien="tydzien" ograniczenia="e*">12:05</godzina>-->
   <godzina dzien="tydzien" ograniczenia="">12:45</godzina>
-  <godzina dzien="tydzien" ograniczenia="">13:20</godzina>
-  <godzina dzien="tydzien" ograniczenia="">14:05</godzina>
+  <godzina dzien="tydzien" ograniczenia="">13:25</godzina>
+  <godzina dzien="tydzien" ograniczenia="">14:07</godzina>
   <!--<godzina dzien="tydzien" ograniczenia="e">14:35</godzina>-->
   <godzina dzien="tydzien" ograniczenia="">15:07</godzina>
   <godzina dzien="tydzien" ograniczenia="">16:07</godzina>
-  <godzina dzien="tydzien" ograniczenia="e">16:45</godzina>
-  <godzina dzien="tydzien" ograniczenia="L">16:50</godzina>
+  <godzina dzien="tydzien" ograniczenia="">16:45</godzina>
+  <!--<godzina dzien="tydzien" ograniczenia="L">16:50</godzina>-->
   <!--<godzina dzien="tydzien" ograniczenia="e">17:15</godzina>-->
-  <godzina dzien="tydzien" ograniczenia="">17:45</godzina>
-  <godzina dzien="tydzien" ograniczenia="">18:30</godzina>
-  <godzina dzien="tydzien" ograniczenia="">19:40</godzina>
+  <godzina dzien="tydzien" ograniczenia="">18:00</godzina>
+  <godzina dzien="tydzien" ograniczenia="">18:45</godzina>
+  <godzina dzien="tydzien" ograniczenia="">19:45</godzina>
   <!--<godzina dzien="tydzien" ograniczenia="">20:35</godzina>-->
-  <godzina dzien="tydzien" ograniczenia="">21:20</godzina>
+  <godzina dzien="tydzien" ograniczenia="">21:05</godzina>
   <godzina dzien="tydzien" ograniczenia="">21:55</godzina>
 
   <godzina dzien="sobota" ograniczenia="*">05:00</godzina>
-  <godzina dzien="sobota" ograniczenia="*">05:57</godzina>
-  <godzina dzien="sobota" ograniczenia="*">07:10</godzina>
-  <godzina dzien="sobota" ograniczenia="*">08:00</godzina>
-  <godzina dzien="sobota" ograniczenia="*">08:40</godzina>
-  <godzina dzien="sobota" ograniczenia="*">09:40</godzina>
+  <godzina dzien="sobota" ograniczenia="*">06:10</godzina>
+  <godzina dzien="sobota" ograniczenia="*">07:15</godzina>
+  <godzina dzien="sobota" ograniczenia="*">08:05</godzina>
+  <godzina dzien="sobota" ograniczenia="*">08:50</godzina>
+  <godzina dzien="sobota" ograniczenia="*">09:50</godzina>
   <!--<godzina dzien="sobota" ograniczenia="*">10:20</godzina>-->
   <godzina dzien="sobota" ograniczenia="*">11:10</godzina>
-  <godzina dzien="sobota" ograniczenia="">12:05</godzina>
-  <godzina dzien="sobota" ograniczenia="">12:50</godzina>
-  <godzina dzien="sobota" ograniczenia="">14:00</godzina>
-  <godzina dzien="sobota" ograniczenia="">15:15</godzina>
+  <godzina dzien="sobota" ograniczenia="">12:10</godzina>
+  <godzina dzien="sobota" ograniczenia="">13:00</godzina>
+  <godzina dzien="sobota" ograniczenia="">14:15</godzina>
+  <godzina dzien="sobota" ograniczenia="">15:10</godzina>
   <!--<godzina dzien="sobota" ograniczenia="">16:05</godzina>-->
-  <godzina dzien="sobota" ograniczenia="">16:30</godzina>
-  <godzina dzien="sobota" ograniczenia="">17:25</godzina>
-  <godzina dzien="sobota" ograniczenia="">18:50</godzina>
-  <godzina dzien="sobota" ograniczenia="">20:10</godzina>
+  <godzina dzien="sobota" ograniczenia="">16:25</godzina>
+  <godzina dzien="sobota" ograniczenia="">17:40</godzina>
+  <godzina dzien="sobota" ograniczenia="">19:10</godzina>
+  <godzina dzien="sobota" ograniczenia="">20:05</godzina>
   <godzina dzien="sobota" ograniczenia="">21:55</godzina>
 
   <!--<godzina dzien="niedziela" ograniczenia="*">05:00</godzina>-->
-  <godzina dzien="niedziela" ograniczenia="*">05:57</godzina>
+  <godzina dzien="niedziela" ograniczenia="*">06:10</godzina>
   <!--<godzina dzien="niedziela" ograniczenia="*">07:50</godzina>-->
   <godzina dzien="niedziela" ograniczenia="*">08:30</godzina>
   <!--<godzina dzien="niedziela" ograniczenia="*">10:20</godzina>-->
   <godzina dzien="niedziela" ograniczenia="*">11:10</godzina>
-  <godzina dzien="niedziela" ograniczenia="">12:10</godzina>
+  <!--<godzina dzien="niedziela" ograniczenia="">12:10</godzina>-->
   <godzina dzien="niedziela" ograniczenia="">14:15</godzina>
-  <godzina dzien="niedziela" ograniczenia="">15:10</godzina>
-  <godzina dzien="niedziela" ograniczenia="">16:50</godzina>
-  <godzina dzien="niedziela" ograniczenia="">18:35</godzina>
-  <godzina dzien="niedziela" ograniczenia="">20:10</godzina>
-  <godzina dzien="niedziela" ograniczenia="">21:30</godzina>
+  <!--<godzina dzien="niedziela" ograniczenia="">15:10</godzina>-->
+  <godzina dzien="niedziela" ograniczenia="">17:00</godzina>
+  <!--<godzina dzien="niedziela" ograniczenia="">18:35</godzina>-->
+  <godzina dzien="niedziela" ograniczenia="">19:30</godzina>
+  <godzina dzien="niedziela" ograniczenia="">21:55</godzina>
 </rozklad>
