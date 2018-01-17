@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-  <Identity Name="13960PiotrKozak.Trans-BusRozkady" Publisher="CN=F6B33875-0359-4D00-BCEF-EF86A88FFFED" Version="1.1.1.3" />
+  <Identity Name="13960PiotrKozak.Trans-BusRozkady" Publisher="CN=F6B33875-0359-4D00-BCEF-EF86A88FFFED" Version="1.1.1.4" />
   <mp:PhoneIdentity PhoneProductId="22077879-ef50-4f4c-a6b7-5714bd454647" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>Trans-Bus Rozkłady</DisplayName>
